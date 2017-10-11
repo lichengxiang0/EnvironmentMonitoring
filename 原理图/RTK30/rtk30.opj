@@ -1,0 +1,78 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\rtk_updat\library1.olb"
+        (Type "Schematic Library")))
+    (File ".\rtk30.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (1N5148
+      (FullPartName "1N5148.Normal")
+      (LibraryName
+         "F:\YE\YE\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW MAG-SPST"
+      (FullPartName "SW MAG-SPST.Normal")
+      (LibraryName
+         "F:\YE\YE\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW DIP-2/SM"
+      (FullPartName "SW DIP-2/SM.Normal")
+      (LibraryName
+         "F:\YE\YE\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "F:\YE\YE\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MAX3232E
+      (FullPartName "MAX3232E.Normal")
+      (LibraryName "C:\USERS\ADMINISTRATOR\DESKTOP\RTK_UPDAT\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 3X2"
+      (FullPartName "HEADER 3X2.Normal")
+      (LibraryName
+         "F:\YE\YE\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4X2"
+      (FullPartName "HEADER 4X2.Normal")
+      (LibraryName
+         "F:\YE\YE\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (DBM683
+      (FullPartName "DBM683.Normal")
+      (LibraryName "C:\USERS\ADMINISTRATOR\DESKTOP\RTK_UPDAT\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\rtk30.dsn")
+      (Path "Design Resources" ".\rtk30.dsn" "SCHEMATIC")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\rtk30.dsn" "SCHEMATIC" "RTK_Schematic"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 417"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 1636 100 691")
+        (Scroll "4925 4091")
+        (Zoom "280")
+        (Occurrence "/"))
+      (Path "E:\STM32CLUBMX\新的项目\测试环境监测设备\原理图\RTK30\RTK30.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "RTK_Schematic")))
+  (LastUsedLibraryBrowseDirectory
+     "F:\ye\ye\cadence\SPB_16.5\tools\capture\library")
+  (MPSSessionName "lcx"))

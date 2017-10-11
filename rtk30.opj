@@ -1,0 +1,35 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\rtk30.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\rtk30.dsn")
+      (Path "Design Resources" ".\rtk30.dsn" "SCHEMATIC")
+      (Select "Design Resources" ".\rtk30.dsn" "SCHEMATIC" "RTK_Schematic"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 150"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1586 50 641")
+        (Scroll "938 802")
+        (Zoom "140")
+        (Occurrence "/"))
+      (Path "E:\STM32CLUBMX\新的项目\测试环境监测设备\RTK30.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "RTK_Schematic"))))

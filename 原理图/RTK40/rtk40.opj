@@ -1,0 +1,51 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (File ".\rtk40.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TPS63001
+      (FullPartName "TPS63001.Normal")
+      (LibraryName "C:\USERS\ADMINISTRATOR\DESKTOP\RTK_原理图\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SD_CARD
+      (FullPartName "SD_CARD.Normal")
+      (LibraryName "C:\USERS\ADMINISTRATOR\DESKTOP\RTK_原理图\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\rtk40.dsn")
+      (Path "Design Resources" ".\rtk40.dsn" "SCHEMATIC")
+      (Path "Design Resources" ".\rtk40.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Select "Design Resources" ".\rtk40.dsn" "SCHEMATIC" "RTK_Schematic"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 417"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1548 208 668")
+        (Scroll "-199 0")
+        (Zoom "27")
+        (Occurrence "/"))
+      (Path "C:\USERS\ADMINISTRATOR\DESKTOP\RTK_原理图\原理图\RTK40.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "RTK_Schematic"))))

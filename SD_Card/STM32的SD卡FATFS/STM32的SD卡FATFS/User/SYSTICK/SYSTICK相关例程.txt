@@ -1,0 +1,45 @@
+volatile unsigned int TimingDelay ;   //定义一个全局变量，用于计数计时值
+
+void Delay_Ms( uint32_t nTime )       //我们须要的廷时函数
+{
+TimingDelay = nTime ;                //把廷时值赋值给TimingDelay;
+while( TimingDelay != 0 );           //等待计时时间到，在SysTick的中断函数中每1ms对TimingDelay减1        
+}
+
+/*******************************************************************************
+  * @函数名称	main
+  * @函数说明   主函数 
+  * @输入参数   无
+  * @输出参数   无
+  * @返回参数   无
+  *****************************************************************************/ 
+int main(void)
+{ 
+while( SysTick_Config( 72000 )  != 0  ) ; //配置SysTick，装入倒数值，我们假设系统时钟为72MHz,则
+                                          //要定时1ms，输入的倒数值为72000；SysTick_Config( 72000 );
+   while (1)
+   {
+    Delay_Ms(5);//延时5ms
+	//GPIO_SetBits(GPIOA, GPIO_Pin_8);//PA.8输出高电平
+    Delay_Ms(5);//延时5ms
+       //GPIO_ResetBits(GPIOA, GPIO_Pin_8);//PA.8输出低电平 
+    }
+}
+
+
+
+
+
+/*******************************************************************************
+  * @函数名称	SysTick_Handler
+  * @函数说明   SysTick中断发生的中断处理函数
+  * @输入参数   无
+  * @输出参数   无
+  * @返回参数   无
+*******************************************************************************/
+extern volatile unsigned int TimingDelay;
+
+void SysTick_Handler(void)
+{
+TimingDelay--;
+}
